@@ -30,7 +30,7 @@ export default async function RootLayout({
         
         <div className='mx-0 py-10'>
           <header>
-            <ResponsiveAppBar/>
+            {/* <ResponsiveAppBar/> */}
           </header>
           <main>{children}</main>
         </div>
