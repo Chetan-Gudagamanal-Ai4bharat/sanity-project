@@ -5,6 +5,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  // important: '#__next',
   theme: {
     extend: {
       backgroundImage: {
@@ -12,6 +13,15 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      animation: {
+        move: 'move 4s infinite ease alternate',
+      },
+      keyframes: {
+        move: {
+          'from': { transform: 'translateY(-10px)' },
+          'to': { transform: 'translateY(10px)' },
+        }
+      }
     },
   },
   plugins: [],
