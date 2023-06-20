@@ -28,18 +28,22 @@ const Item = styled(Paper)(({ theme }) => ({
 
 const impact_axes=[
   {
+    id: 1,
     name:'Data',
     desc:'Curate and create the largest public datasets and benchmarks across various tasks and the 22 scheduled languages of India.'
   },
   {
+    id: 2,
     name:'AI Models',
     desc:'Build state-of-the-art, open, foundational AI models across tasks and 22 regional Indian languages.'
   },
   {
+    id: 3,
     name:'Applications',
     desc:'Design and deploy with partners reference applications to demonstrate potential of open AI models.'
   },
   {
+    id: 4,
     name:'Ecosystem',
     desc:'Enable researchers, startups, and govt. to innovate on Indian language AI tech with educational material and workshops.s'
   }
@@ -124,8 +128,8 @@ export default function Home() {
       Our Impact Axes
       </h1>
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 justify-items-center">
-        {impact_axes.map((ele)=>(
-          <div className="max-w-sm w-full lg:max-w-full lg:flex">
+        {impact_axes.map((ele,index)=>(
+          <div key={index} className="max-w-sm w-full lg:max-w-full lg:flex">
             <div className="bg-none rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
               <div className="flex items-center">
                 <img className="w-10 h-10 rounded-full mr-4" src={tempIcon} alt="Avatar of Jonathan Reinink"/>
@@ -147,11 +151,11 @@ export default function Home() {
       Tools and Models
       </h1>
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 justify-items-center">
-        {tools_and_models_description.map((ele)=>(
+        {tools_and_models_description.map((ele,index)=>(
           // <div>
           //   {ele.name}
           // </div>
-          <div className="max-w-sm w-full lg:max-w-full lg:flex">
+          <div key={index} className="max-w-sm w-full lg:max-w-full lg:flex">
             {/* <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden">
               <Image src={'https://v1.tailwindcss.com/img/jonathan.jpg'} alt="logo" width={50} height={50}/>
             </div> */}
@@ -189,7 +193,7 @@ export default function Home() {
             Meet the <u className="text-primary dark:text-primary-400">team</u>
           </h2> */}
           <div className="mt-20 lg:gap-xl-12 grid gap-x-6 md:grid-cols-2 lg:grid-cols-4">
-            {founders.map((founder)=>(<div className="mb-12 lg:mb-0">
+            {founders.map((founder,index)=>(<div key={index} className="mb-12 lg:mb-0">
               <Image className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20" width={150} height={150} src={founder.img} alt="avatar"/>
               <h5 className="mb-4 text-lg font-bold">{founder.name}</h5>
               <p className="mb-6">{founder.desc}</p>
