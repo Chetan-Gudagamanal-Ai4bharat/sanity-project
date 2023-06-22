@@ -7,6 +7,8 @@ import Logo from '../../assets/logo.svg'
 import Image from 'next/image'
 import ResponsiveAppBar from './appbar'
 import backgroundImg from '../../assets/background.jpg'
+import AppbarTest from './appbarTest'
+import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,11 +30,13 @@ export default async function RootLayout({
       <body className="bg-[url('https://res.cloudinary.com/ai4bharat/image/upload/v1686120078/Ai4bharat-Website/Ai4bharat_Website_background_pqq0oe.jpg')] bg-no-repeat bg-center bg-cover">
 
         
-        <div className='mx-0 py-10'>
+        <div className='mx-0'>
           <header>
             {/* <ResponsiveAppBar/> */}
+            <AppbarTest/>
           </header>
           <main>{children}</main>
+          <footer><Footer/></footer>
         </div>
       </body>
     </html>
