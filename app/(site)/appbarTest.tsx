@@ -8,7 +8,7 @@ const dropdownNavsAreas=[
     {
         title: "Machine Translation",
         desc: "Open-source datasets (Samanantar) and models (IndicTrans) for neural machine translation between English and 12 Indic languages.",
-        path: "areas/machine-translation",
+        path: "/areas/machine-translation",
         icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
         </svg>
@@ -17,7 +17,7 @@ const dropdownNavsAreas=[
     {
         title: "Machine Transliteration",
         desc: "Open-source datasets and benchmarks (Aksharantar), models (IndicXlit), and applications for transliteration between Roman and scripts for 20+ Indic languages.",
-        path: "areas/machine-transliteration",
+        path: "/areas/machine-transliteration",
         icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
             <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z" />
         </svg>
@@ -27,7 +27,7 @@ const dropdownNavsAreas=[
     {
         title: "Speech Recognition",
         desc: "Open-source models (IndicWav2Vec) for speech recognition in 9 Indian languages.",
-        path: "areas/speech-recognition",
+        path: "/areas/speech-recognition",
         icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
         </svg>
@@ -36,7 +36,7 @@ const dropdownNavsAreas=[
     {
         title: "Language Understanding",
         desc: "Open-source language models (IndicBERT), benchmarks (IndicGLUE), and entity recognizers (IndicNER) for 10 Indian languages.",
-        path: "areas/language-understanding",
+        path: "/areas/language-understanding",
         icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
             <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z" />
         </svg>
@@ -46,7 +46,7 @@ const dropdownNavsAreas=[
     {
         title: "Language Generation",
         desc: "Open-source language generation model (IndicBART) and benchmarks (IndicNLG Suite) for 10 Indian languages.",
-        path: "areas/language-generation",
+        path: "/areas/language-generation",
         icon: <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
         </svg>
@@ -55,7 +55,7 @@ const dropdownNavsAreas=[
     {
         title: "Sign Language",
         desc: "Open-source datasets (INCLUDE, SignCorpus) and models (OpenHands) for sign recognition for various 10 sign languages from around the world.",
-        path: "areas/sign-language",
+        path: "/areas/sign-language",
         icon: <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
             <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z" />
         </svg>
@@ -312,7 +312,7 @@ export default function AppbarTest () {
                                             {
                                                 item.isDrapdown && drapdownState.idx == idx && drapdownState.isActive ? (
                                                     <div className="mt-6 bg-neutral-100 z-10 inset-x-0 top-20 w-full md:absolute md:border-y md:shadow-md md:mt-0">
-                                                        <ul className='max-w-screen-xl mx-auto grid items-center gap-6 md:p-8 md:grid-cols-2 lg:grid-cols-3'>
+                                                        <div className='max-w-screen-xl mx-auto grid items-center gap-6 md:p-8 md:grid-cols-2 lg:grid-cols-3'>
                                                             {item.navs!.map((dropdownItem, idx) => (
                                                                 // <li key={idx}>
                                                                 //     <p className="text-indigo-600 text-sm">{dropdownItem.label}</p>
@@ -332,12 +332,10 @@ export default function AppbarTest () {
                                                                 //         ))}
                                                                 //     </ul>
                                                                 // </li>
-                                                                
-                                                                    <li key={idx} onClick={() => {
-                                                                        setDrapdownState({ isActive: false, idx })
-                                                                    }}>
-                                                                        
-                                                                        <Link href={dropdownItem.path} className='flex gap-3 items-center'>
+                                                                    <span key={idx} className='group' onClick={() => {
+                                                                            setDrapdownState({ isActive: false, idx })
+                                                                        }}>
+                                                                        <Link href={dropdownItem.path} className="flex gap-3 items-center">
                                                                             <div className='w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center duration-150 group-hover:bg-indigo-600 group-hover:text-white md:w-14 md:h-14'>
                                                                                 {dropdownItem.icon}
                                                                             </div>
@@ -346,9 +344,25 @@ export default function AppbarTest () {
                                                                                 <p className='text-sm text-gray-600 group-hover:text-gray-800 mt-1'>{dropdownItem.desc}</p>
                                                                             </div>
                                                                         </Link>
-                                                                    </li>
+                                                                    </span>
+                                                                
+                                                                
+                                                                    // <span key={idx} onClick={() => {
+                                                                    //     setDrapdownState({ isActive: false, idx })
+                                                                    // }}>
+                                                                        
+                                                                    //     <Link href={dropdownItem.path} className='flex gap-3 items-center'>
+                                                                    //         <div className='w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center duration-150 group-hover:bg-indigo-600 group-hover:text-white md:w-14 md:h-14'>
+                                                                    //             {dropdownItem.icon}
+                                                                    //         </div>
+                                                                    //         <div>
+                                                                    //             <span className="text-gray-800 duration-200 group-hover:text-indigo-600 text-sm font-medium md:text-base">{dropdownItem.title}</span>
+                                                                    //             <p className='text-sm text-gray-600 group-hover:text-gray-800 mt-1'>{dropdownItem.desc}</p>
+                                                                    //         </div>
+                                                                    //     </Link>
+                                                                    // </span>
                                                             ))}
-                                                        </ul>
+                                                        </div>
                                                     </div>
                                                 ) : ""
                                             }
