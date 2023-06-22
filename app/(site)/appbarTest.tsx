@@ -207,7 +207,7 @@ const dropdownNavsAreas=[
 //     }
 // ]
 
-export default () => {
+export default function AppbarTest () {
 
     const [state, setState] = useState(false)
     const [drapdownState, setDrapdownState] = useState<{isActive: boolean; idx: number | null}>({ isActive: false, idx: null })
