@@ -219,20 +219,20 @@ export default () => {
         { title: "Publications", path: "/publications", isDrapdown: false },
     ]
 
-    // useEffect(() => {
-    //     document.onclick = (e) => {
-    //         if (e.target instanceof HTMLElement) {
-    //             const target = e.target;
-    //             if (!target.closest(".nav-menu")) setDrapdownState({ isActive: false, idx: null });
-    //         }
-    //     };
-    // }, [])
     useEffect(() => {
         document.onclick = (e) => {
+            if (e.target instanceof HTMLElement) {
                 const target = e.target;
                 if (!target.closest(".nav-menu")) setDrapdownState({ isActive: false, idx: null });
             }
+        };
     }, [])
+    // useEffect(() => {
+    //     document.onclick = (e) => {
+    //             const target = e.target;
+    //             if (!target.closest(".nav-menu")) setDrapdownState({ isActive: false, idx: null });
+    //         }
+    // }, [])
 
     return (
         <>
