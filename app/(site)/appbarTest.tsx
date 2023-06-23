@@ -336,11 +336,11 @@ export default function AppbarTest () {
                                                                             setDrapdownState({ isActive: false, idx })
                                                                         }}>
                                                                         <Link href={dropdownItem.path} className="flex gap-3 items-center">
-                                                                            <div className='w-12 h-12 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center duration-150 group-hover:bg-indigo-600 group-hover:text-white md:w-14 md:h-14'>
+                                                                            <div className='w-12 h-12 rounded-full bg-orange-100 text-orange-500 flex items-center justify-center duration-150 group-hover:bg-orange-500 group-hover:text-white md:w-14 md:h-14'>
                                                                                 {dropdownItem.icon}
                                                                             </div>
                                                                             <div>
-                                                                                <span className="text-gray-800 duration-200 group-hover:text-indigo-600 text-sm font-medium md:text-base">{dropdownItem.title}</span>
+                                                                                <span className="text-gray-800 duration-200 group-hover:text-orange-500 text-sm font-medium md:text-base">{dropdownItem.title}</span>
                                                                                 <p className='text-sm text-gray-600 group-hover:text-gray-800 mt-1'>{dropdownItem.desc}</p>
                                                                             </div>
                                                                         </Link>

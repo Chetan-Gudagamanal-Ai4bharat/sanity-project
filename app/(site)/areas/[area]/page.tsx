@@ -30,7 +30,7 @@ export default async function Area({params}:Props){
             
         </div>
         </Container>
-        {area.contributions.length &&
+        {area.contributions?.length &&
         <Container disableGutters maxWidth={false} className="bg-gradient-to-b from-neutral-200 via-neutral-150 to-neutral-100">    
             {/* <section x-data="xData()" className="bg-gray-100 dark:bg-gray-900 py-10 px-12"> */}
             {/* <div className="container mx-auto md:px-6 py-20 lg:py-40"> */}
